@@ -392,7 +392,7 @@ button.btn-text:hover, button.btn-text:focus-within {
 }
 .header__nav ul li .main-link::after {
   font-family: var(--ff-heading-body);
-  content: url(../images/icon-arrow-dark.svg);
+  content: url(./images/icon-arrow-dark.svg);
   display: inline-block;
   -webkit-margin-start: 0.8rem;
           margin-inline-start: 0.8rem;
@@ -401,7 +401,7 @@ button.btn-text:hover, button.btn-text:focus-within {
 }
 @media (min-width: 55em) {
   .header__nav ul li .main-link::after {
-    content: url(../images/icon-arrow-light.svg);
+    content: url(./images/icon-arrow-light.svg);
   }
 }
 .header__nav ul li a {
